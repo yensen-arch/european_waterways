@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Gourmet Dining Onboard",
-  description: "Indulge in exquisite meals prepared by onboard chefs, featuring regional specialties and fresh, local ingredients.",
+  title: "Luxury Hotel Barges",
+  description: "Cruise Europe's inland canals aboard intimate barges hosting just 6–20 guests.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Personalized Excursions",
-  description: "Enjoy daily guided tours to historic sites, local markets, vineyards, and artisan workshops, providing an authentic glimpse into the culture and heritage of each destination.",
+  title: "Gourmet Dining",
+  description: "Onboard chefs prepare fine meals paired with regional wines and cheeses daily.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Sunset Deck Views",
-  description: "Relax on open decks with panoramic ocean views, perfect for watching stunning sunsets and starry skies.",
+  title: "Chauffeured Excursions",
+  description: "Includes daily private tours to castles, vineyards, and artisan workshops.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Onboard Entertainment Galore",
-  description: " Enjoy live music, theater shows, movie nights, and themed parties that keep the fun going every night at sea.",
+  title: "Charter Experiences",
+  description: "Ideal for families or small groups seeking exclusive use and custom itineraries.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* European Waterways Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
